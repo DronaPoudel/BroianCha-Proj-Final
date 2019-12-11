@@ -1,0 +1,51 @@
+@media screen and (max-width: 550px){
+  #lets-start{
+    flex-wrap: wrap ;
+  }
+  .container{
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 374px){
+  .guinness-content .record-item{
+    flex-wrap: wrap ;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .container{
+    margin: 0 5%;
+  }
+}
+
+
+@media screen and (max-width: 683px) {
+    .signature img {
+      // width: 50%;
+      transform: translateX(-120px) !important;
+      // transform: scale(0.7)
+    }
+  }
+
+  @media only screen and (max-width: 455px) {
+    .signature img {
+      // width: 50%;
+      margin-top: 15px;
+      // transform: scale(0.7)
+    }
+  }
+  @media screen and (max-width: 500px){
+    .slice{
+      flex-direction: column;
+    }
+    .calltoaction .action-btns .side-wrapper p{
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+      // background-color: blue;
+    }
+  }
